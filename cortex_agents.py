@@ -10,6 +10,9 @@ import asyncio
 
 load_dotenv(find_dotenv())
 
+# Base code adapted from the Snowflake User Guide.
+# Modified to support Cortex Analytics, Search, and SQL queries.
+
 # Initialize FastMCP server
 mcp = FastMCP("cortex_agent")
 
@@ -184,4 +187,5 @@ if __name__ == "__main__":
     #os.environ["MCP_HOST"] = host
     #os.environ["MCP_PORT"] = str(port)
     #mcp.run(transport="http")
+
 
