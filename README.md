@@ -15,3 +15,6 @@ In this tutorial, we’ll build a simple MCP **Cortex Agent** server and connect
 
 For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/mcp-server-for-cortex-agents/index.html).
 
+This project is derived from example code in the Snowflake user guide. We made modifications and enhancements so it can run successfully with Cortex Analytics, Search, and SQL queries. 
+
+
